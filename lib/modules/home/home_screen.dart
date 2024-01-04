@@ -64,6 +64,7 @@ class _PointsCounterState extends State<PointsCounter> {
                     {
                       setState(() {
                         currentLeft += int.tryParse(controllerLeft.text)!;
+                        controllerLeft.clear();
                       });
                       if(currentLeft >= 152)
                       {
@@ -145,6 +146,7 @@ class _PointsCounterState extends State<PointsCounter> {
                     {
                       setState(() {
                         currentRight += int.tryParse(controllerRight.text)!;
+                        controllerRight.clear();
                       });
                       if(currentRight >= 152)
                       {
