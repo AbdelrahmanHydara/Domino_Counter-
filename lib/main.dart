@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget
           titleTextStyle: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.w700,
-            fontSize: 34,
+            fontSize: 34
           ),
           systemOverlayStyle: SystemUiOverlayStyle(
             statusBarIconBrightness: Brightness.light,
